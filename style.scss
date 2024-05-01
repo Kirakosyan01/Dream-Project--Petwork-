@@ -1537,6 +1537,51 @@ nav {
       }
     }
     .sectionSides_9 {
+      @include flex(space-between, unset, row, 0 30px, unset);
+      padding-top: 150px;
+      padding-bottom: 150px;
+      .leftSide_9{
+        @include flex(unset, unset, column, unset, unset);
+        .section_p23{
+          @include fontSet($text_light_accent, epilogue, 400, 16px, 200%, uppercase, 0.19em);
+          margin-bottom: 17px;
+        }
+        .section_p24{
+          @include fontSet(black, epilogue, 800, 40px, 120%, none, normal);
+          margin-bottom: 31px;
+          max-width: 371px;
+        }
+        .section_p25{
+          @include fontSet(gray, epilogue, 400, 16px, 200%, none, normal);
+          margin-bottom: 29px;
+          max-width: 470px;
+        }
+        a{
+          @include fontSet(black, epilogue, 400, 16px, 200%, none, normal);
+          transition: all 0.3s;
+          &:hover{
+            color: $text_light_accent;
+          }
+        }
+      }
+      .rightSide_9{
+        @include flex(unset, unset, column, unset, unset);
+          .subSectionBox_6{
+            @include flex(space-between, center, row, 0 70px, unset);
+            border: 1px solid #f3d1bf;
+            padding: 41px 48px;
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover{
+              background-color: white;
+            }
+            p{
+              @include fontSet(black, epilogue, 700, 24px, 133%, none, normal);
+            }
+            max-width: 570px;
+            width: 100%;
+          }
+      }
     }
   }
 }

@@ -2288,6 +2288,104 @@ nav .navMainBox .btn a:hover {
   text-transform: none;
   letter-spacing: normal;
 }
+.mainBox_4 .sectionMainBox_4 .sectionSides_9 {
+  display: flex;
+  justify-content: space-between;
+  align-items: unset;
+  flex-direction: row;
+  gap: 0 30px;
+  flex-wrap: unset;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.mainBox_4 .sectionMainBox_4 .sectionSides_9 .leftSide_9 {
+  display: flex;
+  justify-content: unset;
+  align-items: unset;
+  flex-direction: column;
+  gap: unset;
+  flex-wrap: unset;
+}
+.mainBox_4 .sectionMainBox_4 .sectionSides_9 .leftSide_9 .section_p23 {
+  color: #ef6d58;
+  font-family: epilogue;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  text-transform: uppercase;
+  letter-spacing: 0.19em;
+  margin-bottom: 17px;
+}
+.mainBox_4 .sectionMainBox_4 .sectionSides_9 .leftSide_9 .section_p24 {
+  color: black;
+  font-family: epilogue;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 120%;
+  text-transform: none;
+  letter-spacing: normal;
+  margin-bottom: 31px;
+  max-width: 371px;
+}
+.mainBox_4 .sectionMainBox_4 .sectionSides_9 .leftSide_9 .section_p25 {
+  color: gray;
+  font-family: epilogue;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  text-transform: none;
+  letter-spacing: normal;
+  margin-bottom: 29px;
+  max-width: 470px;
+}
+.mainBox_4 .sectionMainBox_4 .sectionSides_9 .leftSide_9 a {
+  color: black;
+  font-family: epilogue;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  text-transform: none;
+  letter-spacing: normal;
+  transition: all 0.3s;
+}
+.mainBox_4 .sectionMainBox_4 .sectionSides_9 .leftSide_9 a:hover {
+  color: #ef6d58;
+}
+.mainBox_4 .sectionMainBox_4 .sectionSides_9 .rightSide_9 {
+  display: flex;
+  justify-content: unset;
+  align-items: unset;
+  flex-direction: column;
+  gap: unset;
+  flex-wrap: unset;
+}
+.mainBox_4 .sectionMainBox_4 .sectionSides_9 .rightSide_9 .subSectionBox_6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 0 70px;
+  flex-wrap: unset;
+  border: 1px solid #f3d1bf;
+  padding: 41px 48px;
+  cursor: pointer;
+  transition: 0.3s;
+  max-width: 570px;
+  width: 100%;
+}
+.mainBox_4 .sectionMainBox_4 .sectionSides_9 .rightSide_9 .subSectionBox_6:hover {
+  background-color: white;
+}
+.mainBox_4 .sectionMainBox_4 .sectionSides_9 .rightSide_9 .subSectionBox_6 p {
+  color: black;
+  font-family: epilogue;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
 @media screen and (max-width: 1024px) {
   section {
     display: flex;
