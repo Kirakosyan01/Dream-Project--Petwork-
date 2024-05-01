@@ -1317,6 +1317,7 @@ nav .navMainBox .btn a:hover {
   flex-direction: row;
   gap: 0 30px;
   flex-wrap: unset;
+  margin-bottom: 30px;
 }
 .mainBox_3 .sectionMainBox_3 .firstSectionBox_2 .sectionBox_4 {
   border-radius: 6px;
@@ -1325,7 +1326,6 @@ nav .navMainBox .btn a:hover {
   width: 100%;
   background-image: url(images/sofa.png);
   position: relative;
-  margin-bottom: 30px;
 }
 .mainBox_3 .sectionMainBox_3 .firstSectionBox_2 .sectionBox_4 a {
   color: black;

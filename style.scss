@@ -837,6 +837,7 @@ nav {
         }
         .firstSectionBox_2{
           @include flex(center, center, row, 0 30px, unset);
+          margin-bottom: 30px;
           .sectionBox_4{
             border-radius: 6px;
             max-width: 470px;
@@ -844,7 +845,6 @@ nav {
             width: 100%;
             background-image: url(images/sofa.png);
             position: relative;
-            margin-bottom: 30px;
               a{
                 @include fontSet(black, epilogue, 400, 16px, 200%, none, normal);
                 position: absolute;
