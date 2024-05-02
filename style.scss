@@ -1693,7 +1693,7 @@ nav {
         transition: 0.3s;
         &:hover{
           transform: scale(1.1);
-          box-shadow: 1px 1px 10px $text_light_accent;
+          box-shadow: 10px 10px 10px #F3D1BF;
         }
           .story{
             @include fontSet(black, epilogue, 400, 20px, 160%, none, normal);
@@ -1713,6 +1713,156 @@ nav {
       }
     }
   }
+}
+
+footer{
+  background-color: #f9e5da;
+  width: 100%;
+    .footerMainBox{
+      padding: 70px 50px;
+      @include flex(unset, unset, column, unset, unset);
+      .FooterBox_6{
+        @include flex(space-around, unset, row, 0 30px, unset);
+        margin-bottom: 100px;
+                .footerBox_4{
+          @include fontSet(black, epilogue, 800, 40px, 120%, none, normal);
+        }
+        .footerBox_5{
+          @include flex(unset, center, row, 0 30px, unset);
+            a{
+              @include fontSet(black, epilogue, 900, 14px, normal, uppercase, normal);
+              padding: 18px 46px;
+              border: 1px solid white;
+              border-radius: 6px;
+              background-color: white;
+              transition: all 0.3s;
+              &:hover{
+                background-color: $text_light_accent;
+                color: white;
+                border-color: $text_light_accent;
+              }
+            }
+            .email_input{
+              padding: 0 16px 0 16px;
+              @include fontSet(gray, epilogue, 400, 16px, 200%, none, normal);
+              width: 370px;
+              height: 48px;
+              border: 1px solid #f3d1bf;
+              border-radius: 6px;
+              border-color: #f3d1bf;
+            }
+        }
+      }
+      .agencyMap{
+        @include flex(unset, unset, unset, unset, unset);
+        background-image: url(images/map.png);
+        object-fit: contain;
+        width: 100%;
+        padding: 125px 135px;
+        margin-bottom: 80px;
+        border-radius: 6px;
+        .rightpin{
+          position: relative;
+          .pin2{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(300%, 1%);
+            cursor: pointer;
+          }
+        }
+          .footerBox_7{
+            @include flex(unset, unset, column, 20px 0, unset);
+            padding: 48px 48px;
+            background-color: white;
+            border-radius: 6px;
+            max-width: 470px;
+             .footer_p9{
+            @include fontSet(black, eplogue, 700, 24px, 133%, none, normal);
+             }
+             .footerForm{
+            @include flex(unset, unset, column, 20px 0, unset);
+              input{
+                @include fontSet(gray, epilogue, 400, 16px, 200%, none, normal);
+                width: 374px;
+                height: 48px;
+                border: 1px solid #f3d1bf;
+                padding: 9px 16px;
+              }
+              .message{
+                height: 96px;
+              }
+             }
+             .submit_now{
+              @include flex(unset, unset, unset, unset, unset);
+              align-self: flex-end;
+              @include fontSet(black, epilogue, 900, 14px, normal, uppercase, normal);
+              background-color: white;
+              border-radius: 6px;
+              border: 1px solid $text_light_accent;
+              padding: 18px 30px;
+              max-width: 160px;
+              transition: all 0.3s;
+              &:hover{
+                background-color: $text_light_accent;
+                color: white;
+              }
+             }
+        }
+      }
+      .footerBox_9{
+        @include flex(center, unset, row, unset, unset);
+        margin-bottom: 100px;
+        .footerBox_8{
+          @include flex(unset, unset, column, 26px 0, unset);
+          border: 1px solid #F3D1BF;
+          max-width: 391px;
+          width: 100%;
+          padding: 42px 35px;
+          cursor: pointer;
+          transition: all 0.3s;
+          &:hover{
+            background-color: white;
+          }
+          .subFooterBox_1{
+            @include flex(unset, center, row, 0 24px, unset);
+            .footerOval{
+              object-fit: contain;
+              width: 100%;
+              max-width: 64px;
+              position: relative;
+            }
+            .phone{
+              object-fit: contain;
+              width: 100%;
+              max-width: 24px;
+              position: absolute;
+              transform: translate(80%, 1%);
+            }
+            p{
+              @include fontSet($text_light_accent, epilogue, 400, 16px, 200%, uppercase, 0.19em);
+            }
+          }
+          .footer_p10{
+            @include fontSet(black, epilogue, 400, 20px, 160%, none, normal);
+          }
+        }
+      }
+      .footerBox_10{
+        background-color: #ef6d58;
+        border-radius: 6px;
+        padding: 80px 80px;
+          .sectionSides_10{
+            @include flex(space-between, unset, row, 0 30px, unset);
+              .leftSide_10{
+
+              }
+              .rightSide_10{
+
+              }
+          }
+      }
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -1924,6 +2074,40 @@ nav {
       }
     }
   }
+  footer{
+    .footerMainBox{
+      .FooterBox_6{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+          .footerBox_5{
+            flex-direction: column;
+            row-gap: 30px;
+          }
+      }
+      .agencyMap{
+        padding: 25px 25px;
+        justify-content: center;
+          .pin2{
+            display: none;
+          }
+          .footerBox_7{
+            padding: 48px 20px;
+              .submit_now{
+                align-self: flex-start;
+              }
+              .footerForm{
+                input{
+                  width: 300px;
+                }
+              }
+          }
+      }
+      .footerBox_9{
+        flex-direction: column;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -2130,6 +2314,18 @@ nav {
       }
     }
   }
+
+  footer{
+    .footerMainBox{
+      .FooterBox_6{
+        .footerBox_5{
+          .email_input{
+            width: 300px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -2177,6 +2373,23 @@ nav {
             }
           }
         }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  footer{
+    .footerMainBox{
+      .agencyMap{
+        background-image: none;
+          .footerBox_7{
+            .footerForm{
+              input{
+                width: 240px;
+              }
+            }
+          }
+      }
     }
   }
 }
