@@ -888,7 +888,7 @@ nav {
       }
     }
     .firstSectionBox_2 {
-      @include flex(center, center, row, 0 30px, unset);
+      @include flex(center, center, row, 30px 30px, unset);
       margin-bottom: 30px;
       .sectionBox_4 {
         border-radius: 6px;
@@ -952,7 +952,7 @@ nav {
       }
     }
     .secondSectionBox_2 {
-      @include flex(center, unset, row, 0 30px, unset);
+      @include flex(center, center, row, 0 30px, unset);
       margin-bottom: 64px;
       .sectionBox_6 {
         background-image: url(images/workMedia.png);
@@ -1719,7 +1719,7 @@ footer{
   background-color: #f9e5da;
   width: 100%;
     .footerMainBox{
-      padding: 70px 50px;
+      padding: 70px 40px;
       @include flex(unset, unset, column, unset, unset);
       .FooterBox_6{
         @include flex(space-around, unset, row, 0 30px, unset);
@@ -1853,14 +1853,72 @@ footer{
         border-radius: 6px;
         padding: 80px 80px;
           .sectionSides_10{
-            @include flex(space-between, unset, row, 0 30px, unset);
+            @include flex(space-between, center, row, 0 30px, unset);
               .leftSide_10{
-
+                @include flex(unset, unset, column, 30px 0, unset);
+                h3{
+                  @include fontSet(white, epilogue, 800, 56px, 114%, none, -0.02em);
+                  max-width: 405px;
+                }
+                p{
+                  @include fontSet(white, epilogue, 400, 16px, 200%, none, normal);
+                  max-width: 470px;
+                }
+                a{
+                  @include fontSet(black, epilogue, 900, 14px, normal, uppercase, normal);
+                  padding: 18px 30px;
+                  background-color: white;
+                  max-width: 154px;
+                  width: 100%;
+                  border-radius: 6px;
+                }
               }
               .rightSide_10{
-
+                img{
+                  object-fit: contain;
+                  width: 100%;
+                  max-width: 444px;
+                  min-width: 200px;
+                }
               }
           }
+      }
+      .footerBox_11{
+        @include flex(space-between, unset, row, unset, unset);
+        padding-top: 90px;
+        padding-bottom: 60px;
+        border-bottom: 1px solid #F3D1BF;
+          .agencyFooter{
+            @include fontSet(black, epilogue, 700, 24px, 133%, none, normal);
+          }
+        .footerBox_12{
+          @include flex(unset, unset, column, unset, unset);
+            .footer_p11{
+                 @include fontSet($text_light_accent, epilogue, 400, 16px, 200%, uppercase, 0.19em);
+                margin-bottom: 17px;
+            }
+            .footer_p12 {
+                @include fontSet(black, epilogue, 400, 16px, 200%, none, normal);
+            }
+        }
+        .footerBox_13{
+          img{
+            cursor: pointer;
+          }
+        }
+      }
+      .footerBox_14{
+        @include flex(space-between, center, row, 30px 30px, unset);
+        padding-top: 45px;
+        .footer_p13{
+          @include fontSet(gray, epilogue, 400, 16px, 200%, none, normal);
+        }
+        .footerBox_15{
+          @include flex(unset, unset, row, 0 30px, unset);
+          a{
+            @include fontSet(black, epilogue, 400, 16px, 200%, none, normal);
+          }
+        }
       }
     }
 }
@@ -2105,6 +2163,20 @@ footer{
       }
       .footerBox_9{
         flex-direction: column;
+        align-items: center;
+      }
+      .footerBox_10{
+        padding: 40px 15px;
+        .sectionSides_10{
+          flex-direction: column-reverse;
+          row-gap: 40px;
+          // padding: ;
+          .leftSide_10{
+            h3{
+              font-size: 40px;
+            }
+          }
+        }
       }
     }
   }
@@ -2127,9 +2199,6 @@ footer{
       }
       .firstSectionBox_2 {
         flex-direction: column;
-        .sectionBox_5 {
-          margin-bottom: 30px;
-        }
       }
       .secondSectionBox_2 {
         flex-direction: column;
@@ -2178,6 +2247,21 @@ footer{
       }
       .firstSectionBox_8{
         padding: 0 43px 64px 43px;
+      }
+    }
+  }
+  footer {
+    .footerMainBox{
+      .footerBox_11{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+        .agencyFooter{
+          padding-right: 40px;
+        }
+      }
+      .footerBox_14{
+        flex-direction: column;
       }
     }
   }
