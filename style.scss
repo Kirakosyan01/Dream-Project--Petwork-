@@ -1638,6 +1638,80 @@ nav {
         }
       }
     }
+    .wantsMoreAwards{
+      @include flex(center, unset, row, 0 8px, unset);
+      padding-top: 60px;
+      padding-bottom: 100px;
+      p{
+        @include fontSet(gray, epilogue, 400, 16px, 200%, none, normal);
+      }
+      a{
+        @include fontSet(black, epilogue, 400, 16px, 200%, none, normal);
+        transition: all 0.3s;
+        &:hover{
+          color: $text_light_accent;
+        }
+      }
+    }
+    .firstSectionBox_8{
+      @include flex(space-between, unset, row, unset, unset);
+      padding: 0 90px 64px 90px;
+      .blogs{
+        @include flex(unset, unset, column, 20px 0, unset);
+        .blog1{
+          @include fontSet($text_light_accent, epilogue, 400, 16px, 200%, uppercase, 0.19em);
+        }
+        .blog2{
+          @include fontSet(black, epilogue, 800, 56px, 114%, unset, -0.02em);
+          max-width: 318px;
+        }
+      }
+      a{
+        @include fontSet(black, epilogue, 900, 14px, normal, uppercase, normal);
+        align-self: flex-end;
+        padding: 18px 35px;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.3s;
+        &:hover{
+          border-color: $text_light_accent;
+          background-color: $text_light_accent;
+          color: white;
+        }
+      }
+    }
+    .secondSectionBox_8{
+      @include flex(center, unset, row, 0 30px, unset);
+      border-bottom: 1px solid #f3d1bf;
+      padding-bottom: 60px;
+      .subSectionBox_10{
+        @include flex(unset, center, column, 15px 0, unset);
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover{
+          transform: scale(1.1);
+          box-shadow: 1px 1px 10px $text_light_accent;
+        }
+          .story{
+            @include fontSet(black, epilogue, 400, 20px, 160%, none, normal);
+          }
+          .outsource{
+            @include fontSet(black, epilogue, 700, 24px, 133%, none, normal);
+            max-width: 338px;
+          }
+          .data{
+            @include fontSet(black, epilogue, 400, 16px, 200%, none, normal);
+          }
+          img{
+            object-fit: contain;
+            max-width: 370px;
+            width: 100%;
+          }
+      }
+    }
   }
 }
 
@@ -1834,6 +1908,20 @@ nav {
           }
         }
       }
+      .firstSectionBox_8{
+        flex-direction: column;
+        row-gap: 30px;
+        .blogs{
+          align-items: center;
+        }
+        a{
+          align-self: center;
+        }
+      }
+      .secondSectionBox_8{
+        flex-direction: column;
+        row-gap: 60px;
+      }
     }
   }
 }
@@ -1903,6 +1991,9 @@ nav {
             padding: 30px 20px;
           }
         }
+      }
+      .firstSectionBox_8{
+        padding: 0 43px 64px 43px;
       }
     }
   }
@@ -2079,6 +2170,13 @@ nav {
   .mainBox_4 {
     .sectionMainBox_4 {
       padding: 70px 23px;
+        .firstSectionBox_8{
+          .blogs{
+            .blog2{
+              font-size: 48px;
+            }
+          }
+        }
     }
   }
 }
