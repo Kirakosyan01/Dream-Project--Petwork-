@@ -1871,7 +1871,13 @@ footer{
                   max-width: 154px;
                   width: 100%;
                   border-radius: 6px;
+                  border: solid 1px white;
                   transition: all 0.3s;
+                  &:hover{
+                    background-color: $text_light_accent;
+                    color: white;
+                    border-color: white;
+                  }
                 }
               }
               .rightSide_10{

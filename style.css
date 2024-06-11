@@ -2916,7 +2916,13 @@ footer .footerMainBox .footerBox_10 .sectionSides_10 .leftSide_10 a {
   max-width: 154px;
   width: 100%;
   border-radius: 6px;
+  border: solid 1px white;
   transition: all 0.3s;
+}
+footer .footerMainBox .footerBox_10 .sectionSides_10 .leftSide_10 a:hover {
+  background-color: #ef6d58;
+  color: white;
+  border-color: white;
 }
 footer .footerMainBox .footerBox_10 .sectionSides_10 .rightSide_10 img {
   -o-object-fit: contain;
