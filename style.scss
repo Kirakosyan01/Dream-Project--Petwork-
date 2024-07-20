@@ -1962,6 +1962,9 @@ footer {
         }
         .footer_p12 {
           @include fontSet(black, epilogue, 400, 16px, 200%, none, normal);
+          &:hover{
+            color: $text_light_accent;
+          }
         }
       }
       .footerBox_13 {
@@ -1980,6 +1983,9 @@ footer {
         @include flex(unset, unset, row, 0 30px, unset);
         a {
           @include fontSet(black, epilogue, 400, 16px, 200%, none, normal);
+          &:hover{
+            color: $text_light_accent;
+          }
         }
       }
     }

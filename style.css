@@ -2398,7 +2398,9 @@ nav .navMainBox .btn a:hover {
   flex-wrap: unset;
   padding-top: 64px;
 }
-.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 {
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16,
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17,
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 {
   display: flex;
   justify-content: space-between;
   align-items: unset;
@@ -2407,17 +2409,21 @@ nav .navMainBox .btn a:hover {
   flex-wrap: unset;
   padding-top: 15px;
   padding-bottom: 15px;
-  border-top: 1px solid #F3D1BF;
-  border-bottom: 1px solid #F3D1BF;
+  border-top: 1px solid #f3d1bf;
+  border-bottom: 1px solid #f3d1bf;
   transition: all 0.3s;
   cursor: pointer;
 }
-.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16:hover, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17:hover, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18:hover {
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16:hover,
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17:hover,
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18:hover {
   transform: scale(1.1);
   border-top: 1px solid #ef6d58;
   border-bottom: 1px solid #ef6d58;
 }
-.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16 .subsectionBox_7, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17 .subsectionBox_7, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 .subsectionBox_7 {
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16 .subsectionBox_7,
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17 .subsectionBox_7,
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 .subsectionBox_7 {
   display: flex;
   justify-content: unset;
   align-items: center;
@@ -2425,12 +2431,16 @@ nav .navMainBox .btn a:hover {
   gap: 0 24px;
   flex-wrap: unset;
 }
-.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16 .subsectionBox_7 img, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17 .subsectionBox_7 img, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 .subsectionBox_7 img {
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16 .subsectionBox_7 img,
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17 .subsectionBox_7 img,
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 .subsectionBox_7 img {
   width: 120px;
   height: 74.5px;
   border-radius: 6px;
 }
-.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16 .subsectionBox_7 p, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17 .subsectionBox_7 p, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 .subsectionBox_7 p {
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16 .subsectionBox_7 p,
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17 .subsectionBox_7 p,
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 .subsectionBox_7 p {
   color: black;
   font-family: epilogue;
   font-weight: 400;
@@ -2439,7 +2449,9 @@ nav .navMainBox .btn a:hover {
   text-transform: none;
   letter-spacing: normal;
 }
-.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16 .subsectionBox_8, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17 .subsectionBox_8, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 .subsectionBox_8 {
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16 .subsectionBox_8,
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17 .subsectionBox_8,
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 .subsectionBox_8 {
   display: flex;
   justify-content: unset;
   align-items: center;
@@ -2447,7 +2459,9 @@ nav .navMainBox .btn a:hover {
   gap: unset;
   flex-wrap: unset;
 }
-.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16 .subsectionBox_8 p, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17 .subsectionBox_8 p, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 .subsectionBox_8 p {
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16 .subsectionBox_8 p,
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17 .subsectionBox_8 p,
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 .subsectionBox_8 p {
   color: gray;
   font-family: epilogue;
   font-weight: 400;
@@ -2456,7 +2470,9 @@ nav .navMainBox .btn a:hover {
   text-transform: none;
   letter-spacing: normal;
 }
-.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16 .subsectionBox_9, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17 .subsectionBox_9, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 .subsectionBox_9 {
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16 .subsectionBox_9,
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17 .subsectionBox_9,
+.mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 .subsectionBox_9 {
   display: flex;
   justify-content: unset;
   align-items: center;
@@ -2589,7 +2605,7 @@ nav .navMainBox .btn a:hover {
 }
 .mainBox_4 .sectionMainBox_4 .secondSectionBox_8 .subSectionBox_10:hover {
   transform: scale(1.1);
-  box-shadow: 10px 10px 10px #F3D1BF;
+  box-shadow: 10px 10px 10px #f3d1bf;
 }
 .mainBox_4 .sectionMainBox_4 .secondSectionBox_8 .subSectionBox_10 .story {
   color: black;
@@ -2811,7 +2827,7 @@ footer .footerMainBox .footerBox_9 .footerBox_8 {
   flex-direction: column;
   gap: 26px 0;
   flex-wrap: unset;
-  border: 1px solid #F3D1BF;
+  border: 1px solid #f3d1bf;
   max-width: 391px;
   width: 100%;
   padding: 42px 35px;
@@ -2940,7 +2956,7 @@ footer .footerMainBox .footerBox_11 {
   flex-wrap: unset;
   padding-top: 90px;
   padding-bottom: 60px;
-  border-bottom: 1px solid #F3D1BF;
+  border-bottom: 1px solid #f3d1bf;
 }
 footer .footerMainBox .footerBox_11 .agencyFooter {
   color: black;
@@ -2977,6 +2993,9 @@ footer .footerMainBox .footerBox_11 .footerBox_12 .footer_p12 {
   line-height: 200%;
   text-transform: none;
   letter-spacing: normal;
+}
+footer .footerMainBox .footerBox_11 .footerBox_12 .footer_p12:hover {
+  color: #ef6d58;
 }
 footer .footerMainBox .footerBox_11 .footerBox_13 img {
   cursor: pointer;
@@ -3015,6 +3034,9 @@ footer .footerMainBox .footerBox_14 .footerBox_15 a {
   line-height: 200%;
   text-transform: none;
   letter-spacing: normal;
+}
+footer .footerMainBox .footerBox_14 .footerBox_15 a:hover {
+  color: #ef6d58;
 }
 
 @media screen and (max-width: 1024px) {
@@ -3174,18 +3196,25 @@ footer .footerMainBox .footerBox_14 .footerBox_15 a {
   .mainBox_4 .sectionMainBox_4 .sectionSides_9 .leftSide_9 a {
     margin-bottom: 36px;
   }
-  .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 {
+  .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16,
+  .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17,
+  .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 {
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
   }
-  .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16 .subsectionBox_7, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17 .subsectionBox_7, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 .subsectionBox_7 {
+  .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16 .subsectionBox_7,
+  .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17 .subsectionBox_7,
+  .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 .subsectionBox_7 {
     flex-direction: column;
   }
-  .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16 .subsectionBox_9, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17 .subsectionBox_9, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 .subsectionBox_9 {
+  .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_16 .subsectionBox_9,
+  .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17 .subsectionBox_9,
+  .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 .subsectionBox_9 {
     flex-direction: column;
   }
-  .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17 .subsectionBox_8, .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 .subsectionBox_8 {
+  .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_17 .subsectionBox_8,
+  .mainBox_4 .sectionMainBox_4 .secondSectionBox_7 .sectionbox_18 .subsectionBox_8 {
     margin: 0;
   }
   .mainBox_4 .sectionMainBox_4 .firstSectionBox_8 {
