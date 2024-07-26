@@ -1,0 +1,93 @@
+.mainBox_1 {
+    background-color: #28293e;
+    width: 100%;
+    .sectionMainBox_1 {
+      @include flex(space-between, unset, unset, 0 40px, unset);
+      padding: 70px 50px;
+      .sectionLeftSide {
+        @include flex(unset, unset, column, 30px 0, unset);
+        h3 {
+          @include fontSet(
+            $text_light_accent,
+            epilogue,
+            400,
+            16px,
+            200%,
+            uppercase,
+            0.19em
+          );
+          display: inline-flex;
+        }
+        h2 {
+          @include fontSet(white, epilogue, 800, 72px, 111%, none, -0.03em);
+          max-width: 523px;
+          z-index: 1;
+        }
+        .textImg {
+          position: relative;
+          z-index: -1;
+        }
+        .starImg {
+          position: absolute;
+          top: -32px;
+          left: 57px;
+          z-index: -1;
+        }
+        p {
+          display: inline-flex;
+          max-width: 470px;
+          @include fontSet(#a9a9a9, epilogue, 400, 16px, 200%, none, normal);
+        }
+        .sectionLeftSideBtn {
+          @include flex(unset, baseline, unset, 0 46px, unset);
+        }
+        .sectionLeftSideBtn_1 a {
+          padding: 18px 22px;
+          border: 1px solid $text_light_accent;
+          background-color: $text_light_accent;
+          border-radius: 6px;
+          cursor: pointer;
+          @include fontSet(white, epilogue, 900, 14px, none, uppercase, normal);
+          text-align: center;
+          &:hover {
+            background-color: #28293e;
+            color: $text_light_accent;
+            transition: 0.3s;
+          }
+        }
+        .sectionLeftSideBtn_2 a {
+          @include fontSet(white, epilogue, 400, 16px, 200%, none, normal);
+          &:hover {
+            color: $text_light_accent;
+            transition: 0.3s;
+          }
+        }
+        .sectionLeftSideFooter {
+          padding-top: 100px;
+          @include flex(unset, center, unset, 0 16px, unset);
+          img {
+            width: 48px;
+            height: 48px;
+          }
+          .sectionLeftSideFooterBox {
+            display: flex;
+            flex-direction: column;
+            h3 {
+              @include fontSet(white, epilogue, 400, 16px, 200%, none, normal);
+            }
+            p {
+              @include fontSet(#a9a9a9, epilogue, 400, 16px, 200%, none, normal);
+            }
+          }
+        }
+      }
+      .sectionRightSide {
+        display: flex;
+        img {
+          object-fit: contain;
+          max-width: 900px;
+          width: 100%;
+        }
+      }
+    }
+  }

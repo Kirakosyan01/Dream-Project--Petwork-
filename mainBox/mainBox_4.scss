@@ -1,0 +1,397 @@
+.mainBox_4 {
+    background-color: #f9e5da;
+    width: 100%;
+    .sectionMainBox_4 {
+      padding: 70px 50px;
+      @include flex(unset, unset, column, unset, unset);
+      .firstSectionBox_5 {
+        @include flex(unset, unset, column, unset, unset);
+        margin-bottom: 64px;
+        .section_p13 {
+          @include fontSet(
+            $text_light_accent,
+            epilogue,
+            400,
+            16px,
+            200%,
+            uppercase,
+            0.19em
+          );
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        .section_p14 {
+          @include fontSet(black, epilogue, 800, 56px, 114%, none, -0.02em);
+          align-self: center;
+          text-align: center;
+          max-width: 394px;
+        }
+      }
+      .secondSectionBox_5 {
+        .sectionSides_8 {
+          @include flex(center, unset, row, unset, unset);
+          margin-bottom: 64px;
+          .leftSide_8 {
+            @include flex(unset, center, column, unset, unset);
+            .sectionBox_15 {
+              @include flex(unset, unset, column, 30px 0, unset);
+              max-width: 586px;
+              border: 1px solid #f3d1bf;
+              border-radius: 6px;
+              padding: 48px 48px;
+              &:hover {
+                background-color: white;
+                cursor: pointer;
+              }
+              .section_p15 {
+                @include fontSet(gray, epilogue, 400, 16px, 200%, none, normal);
+                max-width: 490px;
+              }
+              .star2 {
+                object-fit: contain;
+                max-width: 152px;
+                width: 100%;
+              }
+              .subSection_1 {
+                @include flex(unset, center, row, 0 24px, unset);
+                .subSection_2 {
+                  flex-direction: column;
+                  .section_p16 {
+                    @include fontSet(
+                      black,
+                      epilogue,
+                      700,
+                      24px,
+                      133%,
+                      none,
+                      normal
+                    );
+                  }
+                  .section_p17 {
+                    @include fontSet(
+                      black,
+                      epilogue,
+                      400,
+                      16px,
+                      200%,
+                      none,
+                      normal
+                    );
+                  }
+                }
+              }
+            }
+          }
+        }
+        .seeAll {
+          @include flex(center, unset, unset, unset, unset);
+          padding-bottom: 108px;
+          a {
+            @include fontSet(
+              black,
+              epilogue,
+              900,
+              14px,
+              normal,
+              uppercase,
+              normal
+            );
+            padding: 18px 40px;
+            border: 1px solid white;
+            background-color: white;
+            border-radius: 6px;
+            transition: all 0.3s;
+            &:hover {
+              color: white;
+              background-color: $text_light_accent;
+              border-color: $text_light_accent;
+            }
+          }
+        }
+      }
+      .firstSectionBox_6 {
+        @include flex(unset, unset, column, unset, unset);
+        padding-left: 77px;
+        .section_p18 {
+          @include fontSet(
+            $text_light_accent,
+            epilogue,
+            400,
+            16px,
+            200%,
+            uppercase,
+            0.19em
+          );
+          margin-bottom: 20px;
+        }
+        .section_p19 {
+          @include fontSet(black, epilogue, 800, 56px, 114%, none, -0.02em);
+          max-width: 358px;
+          margin-bottom: 64px;
+        }
+      }
+      .secondSectionBox_6 {
+        @include flex(center, flex-end, row, unset, unset);
+        height: 520px;
+        .subSectionBox_2 {
+          @include flex(unset, unset, column, unset, unset);
+          padding: 44px 48px;
+          border: 1px solid #f3d1bf;
+          height: 512px;
+          max-width: 391px;
+          width: 100%;
+          border-radius: 6px;
+          cursor: pointer;
+          transition: all 0.3s;
+          &:hover {
+            background-color: white;
+            height: 560px;
+            .popular {
+              display: flex;
+            }
+          }
+          .popular {
+            display: none;
+            text-align: center;
+            border: 1px solid $text_light_accent;
+            border-radius: 19px;
+            margin-bottom: 22px;
+            max-width: 92px;
+            @include fontSet(white, epilogue, 400, 16px, 200%, none, normal);
+            padding: 4px 12px;
+            background-color: $text_light_accent;
+          }
+          .section_p20 {
+            @include fontSet(
+              $text_light_accent,
+              epilogue,
+              400,
+              16px,
+              200%,
+              none,
+              normal
+            );
+            margin-bottom: 17px;
+          }
+          .section_p21 {
+            @include fontSet(black, epilogue, 800, 40px, 120%, none, normal);
+            margin-bottom: 15px;
+          }
+          .section_p22 {
+            @include fontSet(gray, epilogue, 400, 16px, 200%, none, normal);
+            margin-bottom: 27px;
+            max-width: 295px;
+          }
+          .subSectionBox_3,
+          .subSectionBox_4,
+          .subSectionBox_5 {
+            @include flex(unset, unset, row, 0 10px, unset);
+            margin-bottom: 16px;
+            img {
+              object-fit: contain;
+            }
+            .plus {
+              @include fontSet(black, epilogue, 400, 16px, 200%, none, normal);
+            }
+            .minus {
+              @include fontSet(gray, epilogue, 400, 16px, 200%, none, normal);
+            }
+          }
+        }
+      }
+      .sectionSides_9 {
+        @include flex(space-between, unset, row, 0 30px, unset);
+        padding-top: 150px;
+        padding-bottom: 150px;
+        .leftSide_9 {
+          @include flex(unset, unset, column, unset, unset);
+          .section_p23 {
+            @include fontSet(
+              $text_light_accent,
+              epilogue,
+              400,
+              16px,
+              200%,
+              uppercase,
+              0.19em
+            );
+            margin-bottom: 17px;
+          }
+          .section_p24 {
+            @include fontSet(black, epilogue, 800, 40px, 120%, none, normal);
+            margin-bottom: 31px;
+            max-width: 371px;
+          }
+          .section_p25 {
+            @include fontSet(gray, epilogue, 400, 16px, 200%, none, normal);
+            margin-bottom: 29px;
+            max-width: 470px;
+          }
+          a {
+            @include fontSet(black, epilogue, 400, 16px, 200%, none, normal);
+            transition: all 0.3s;
+            &:hover {
+              color: $text_light_accent;
+            }
+          }
+        }
+        .rightSide_9 {
+          @include flex(unset, unset, column, unset, unset);
+          .subSectionBox_6 {
+            @include flex(space-between, center, row, 0 70px, unset);
+            border: 1px solid #f3d1bf;
+            padding: 41px 48px;
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover {
+              background-color: white;
+            }
+            p {
+              @include fontSet(black, epilogue, 700, 24px, 133%, none, normal);
+            }
+            max-width: 570px;
+            width: 100%;
+          }
+        }
+      }
+      .firstSectionBox_7 {
+        p {
+          @include fontSet(black, epilogue, 800, 40px, 120%, none, normal);
+          text-align: center;
+        }
+      }
+      .secondSectionBox_7 {
+        @include flex(unset, unset, column, unset, unset);
+        padding-top: 64px;
+        .sectionbox_16,
+        .sectionbox_17,
+        .sectionbox_18 {
+          @include flex(space-between, unset, row, unset, unset);
+          padding-top: 15px;
+          padding-bottom: 15px;
+          border-top: 1px solid #f3d1bf;
+          border-bottom: 1px solid #f3d1bf;
+          transition: all 0.3s;
+          cursor: pointer;
+          &:hover {
+            transform: scale(1.1);
+            border-top: 1px solid $text_light_accent;
+            border-bottom: 1px solid $text_light_accent;
+          }
+          .subsectionBox_7 {
+            @include flex(unset, center, row, 0 24px, unset);
+            img {
+              width: 120px;
+              height: 74.5px;
+              border-radius: 6px;
+            }
+            p {
+              @include fontSet(black, epilogue, 400, 20px, 160%, none, normal);
+            }
+          }
+          .subsectionBox_8 {
+            @include flex(unset, center, unset, unset, unset);
+            p {
+              @include fontSet(gray, epilogue, 400, 16px, 200%, none, normal);
+            }
+          }
+          .subsectionBox_9 {
+            @include flex(unset, center, row, 0 24px, unset);
+            @include fontSet(black, epilogue, 400, 16px, 200%, none, normal);
+          }
+        }
+        .sectionbox_17 {
+          .subsectionBox_8 {
+            margin-left: 20px;
+          }
+        }
+        .sectionbox_18 {
+          .subsectionBox_8 {
+            margin-right: 80px;
+          }
+        }
+      }
+      .wantsMoreAwards {
+        @include flex(center, unset, row, 0 8px, unset);
+        padding-top: 60px;
+        padding-bottom: 100px;
+        p {
+          @include fontSet(gray, epilogue, 400, 16px, 200%, none, normal);
+        }
+        a {
+          @include fontSet(black, epilogue, 400, 16px, 200%, none, normal);
+          transition: all 0.3s;
+          &:hover {
+            color: $text_light_accent;
+          }
+        }
+      }
+      .firstSectionBox_8 {
+        @include flex(space-between, unset, row, unset, unset);
+        padding: 0 90px 64px 90px;
+        .blogs {
+          @include flex(unset, unset, column, 20px 0, unset);
+          .blog1 {
+            @include fontSet(
+              $text_light_accent,
+              epilogue,
+              400,
+              16px,
+              200%,
+              uppercase,
+              0.19em
+            );
+          }
+          .blog2 {
+            @include fontSet(black, epilogue, 800, 56px, 114%, unset, -0.02em);
+            max-width: 318px;
+          }
+        }
+        a {
+          @include fontSet(black, epilogue, 900, 14px, normal, uppercase, normal);
+          align-self: flex-end;
+          padding: 18px 35px;
+          background-color: white;
+          border: 1px solid white;
+          border-radius: 6px;
+          cursor: pointer;
+          transition: all 0.3s;
+          &:hover {
+            border-color: $text_light_accent;
+            background-color: $text_light_accent;
+            color: white;
+          }
+        }
+      }
+      .secondSectionBox_8 {
+        @include flex(center, unset, row, 0 30px, unset);
+        border-bottom: 1px solid #f3d1bf;
+        padding-bottom: 60px;
+        .subSectionBox_10 {
+          @include flex(unset, center, column, 15px 0, unset);
+          border-radius: 6px;
+          cursor: pointer;
+          transition: 0.3s;
+          &:hover {
+            transform: scale(1.1);
+            box-shadow: 10px 10px 10px #f3d1bf;
+          }
+          .story {
+            @include fontSet(black, epilogue, 400, 20px, 160%, none, normal);
+          }
+          .outsource {
+            @include fontSet(black, epilogue, 700, 24px, 133%, none, normal);
+            max-width: 338px;
+          }
+          .data {
+            @include fontSet(black, epilogue, 400, 16px, 200%, none, normal);
+          }
+          img {
+            object-fit: contain;
+            max-width: 370px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }

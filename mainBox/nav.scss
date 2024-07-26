@@ -1,0 +1,54 @@
+nav {
+    background-color: #28293e;
+    box-shadow: 0 1px 1px gray;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    .navMainBox {
+      @include flex(space-around, center, unset, 0 30px, unset);
+      padding: 15px;
+      .navLeftSide {
+        display: flex;
+        .navLeftSideLogo a {
+          @include flex(unset, center, unset, 0 14px, unset);
+        }
+      }
+      .navRightSide {
+        max-width: 515px;
+        width: 100%;
+        ul {
+          @include flex(space-between, unset, unset, unset, unset);
+        }
+        a {
+          @include fontSet(white, epilogue, 400, 16px, 200%, none, normal);
+          &::after {
+            content: "";
+            display: block;
+            width: 0%;
+            height: 3px;
+            background-color: $text_light_accent;
+            transition: all 0.3s;
+          }
+          &:hover::after {
+            width: 100%;
+          }
+        }
+      }
+      .hamburgerMenu {
+        display: none;
+      }
+      .btn a {
+        border: 1px solid gray;
+        border-radius: 6px;
+        padding: 16px 34px;
+        cursor: pointer;
+        background-color: #28293e;
+        @include fontSet(white, epilogue, 900, 14px, unset, uppercase, normal);
+        &:hover {
+          border: 1px solid $text_light_accent;
+          color: $text_light_accent;
+          transition: 0.3s;
+        }
+      }
+    }
+  }

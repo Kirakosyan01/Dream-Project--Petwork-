@@ -22,10 +22,6 @@ ol {
   font-family: epilogue;
   src: url(../fonts/Epilogue-VariableFont_wght.ttf);
 }
-html {
-  scroll-behavior: smooth;
-}
-
 nav {
   background-color: #28293e;
   box-shadow: 0 1px 1px gray;
@@ -3037,6 +3033,10 @@ footer .footerMainBox .footerBox_14 .footerBox_15 a {
 }
 footer .footerMainBox .footerBox_14 .footerBox_15 a:hover {
   color: #ef6d58;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 @media screen and (max-width: 1024px) {

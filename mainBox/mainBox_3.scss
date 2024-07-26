@@ -1,0 +1,483 @@
+.mainBox_3 {
+    background-color: #28293e;
+    width: 100%;
+    .sectionMainBox_3 {
+      padding: 70px 50px;
+      @include flex(unset, unset, column, unset, unset);
+      .firstSectionBox_1 {
+        .section_p1 {
+          @include fontSet(
+            $text_light_accent,
+            epilogue,
+            400,
+            16px,
+            200%,
+            uppercase,
+            0.19em
+          );
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        .section_p2 {
+          @include fontSet(white, epilogue, 800, 56px, 114%, none, -0.02em);
+          text-align: center;
+          margin-bottom: 36px;
+        }
+      }
+      .secondSectionBox_1 {
+        @include flex(center, unset, row, 0 60px, unset);
+        margin-bottom: 68px;
+        .section_3btn1 {
+          @include fontSet(gray, epilogue, 400, 16px, 200%, none, normal);
+          &:hover {
+            transition: all 0.3s;
+            transform: scale(1.2);
+            color: white;
+          }
+        }
+      }
+      .firstSectionBox_2 {
+        @include flex(center, center, row, 30px 30px, unset);
+        margin-bottom: 30px;
+        .sectionBox_4 {
+          border-radius: 6px;
+          max-width: 470px;
+          height: 416px;
+          width: 100%;
+          background-image: url(images/sofa.png);
+          position: relative;
+          a {
+            @include fontSet(black, epilogue, 400, 16px, 200%, none, normal);
+            position: absolute;
+            border: 1px solid white;
+            padding: 5px 15px;
+            background-color: white;
+            border-radius: 19px;
+            top: 60%;
+            left: 10%;
+            transition: all 0.3s;
+            &:hover {
+              background-color: $text_light_accent;
+              color: white;
+              border-color: $text_light_accent;
+            }
+          }
+          .section_p3 {
+            @include fontSet(white, epilogue, 800, 40px, 120%, uppercase, normal);
+            position: absolute;
+            top: 75%;
+            left: 10%;
+          }
+        }
+        .sectionBox_5 {
+          border-radius: 6px;
+          background-image: url(images/keyboard.png);
+          max-width: 670px;
+          width: 100%;
+          height: 416px;
+          position: relative;
+          a {
+            @include fontSet(black, epilogue, 400, 16px, 200%, none, normal);
+            position: absolute;
+            border: 1px solid white;
+            padding: 5px 15px;
+            background-color: white;
+            border-radius: 19px;
+            top: 60%;
+            left: 7%;
+            transition: all 0.3s;
+            &:hover {
+              background-color: $text_light_accent;
+              color: white;
+              border-color: $text_light_accent;
+            }
+          }
+          .section_p4 {
+            @include fontSet(white, epilogue, 800, 40px, 120%, none, normal);
+            position: absolute;
+            top: 75%;
+            left: 7%;
+          }
+        }
+      }
+      .secondSectionBox_2 {
+        @include flex(center, center, row, 0 30px, unset);
+        margin-bottom: 64px;
+        .sectionBox_6 {
+          background-image: url(images/workMedia.png);
+          max-width: 670px;
+          width: 100%;
+          height: 416px;
+          border-radius: 6px;
+          position: relative;
+          a {
+            @include fontSet(black, epilogue, 400, 16px, 200%, none, normal);
+            position: absolute;
+            border: 1px solid white;
+            padding: 5px 15px;
+            background-color: white;
+            border-radius: 19px;
+            top: 60%;
+            left: 7%;
+            transition: all 0.3s;
+            &:hover {
+              background-color: $text_light_accent;
+              color: white;
+              border-color: $text_light_accent;
+            }
+          }
+          .section_p5 {
+            @include fontSet(white, epilogue, 800, 40px, 120%, none, normal);
+            position: absolute;
+            top: 75%;
+            left: 7%;
+          }
+        }
+        .sectionBox_7 {
+          background-image: url(images/DDDone.png);
+          max-width: 470px;
+          width: 100%;
+          height: 416px;
+          border-radius: 6px;
+          position: relative;
+          a {
+            @include fontSet(black, epilogue, 400, 16px, 200%, none, normal);
+            position: absolute;
+            border: 1px solid white;
+            padding: 5px 15px;
+            background-color: white;
+            border-radius: 19px;
+            top: 60%;
+            left: 10%;
+            transition: all 0.3s;
+            &:hover {
+              background-color: $text_light_accent;
+              color: white;
+              border-color: $text_light_accent;
+            }
+          }
+          .section_p6 {
+            @include fontSet(white, epilogue, 800, 40px, 120%, none, normal);
+            position: absolute;
+            top: 75%;
+            left: 10%;
+          }
+        }
+      }
+      .explore_btn {
+        @include flex(center, unset, unset, unset, unset);
+        margin-bottom: 135px;
+        a {
+          @include fontSet(white, epilogue, 900, 14px, normal, uppercase, normal);
+          border: 1px solid gray;
+          border-radius: 6px;
+          padding: 18px 30px;
+          transition: all 0.3s;
+          &:hover {
+            color: $text_light_accent;
+            border-color: $text_light_accent;
+          }
+        }
+      }
+      .sectionBlock_1 {
+        @include flex(flex-start, unset, unset, unset, unset);
+        align-self: center;
+        padding-top: 92px;
+        padding-left: 100px;
+        margin-bottom: 140px;
+        background-color: #fdf0e9;
+        max-width: 1170px;
+        height: 336px;
+        width: 100%;
+        border-radius: 6px;
+        position: relative;
+        .path {
+          position: absolute;
+          top: 12%;
+          left: 68%;
+        }
+        .iconBlock {
+          position: absolute;
+          top: -22.5%;
+          left: 7%;
+        }
+        .block {
+          object-fit: contain;
+          max-width: 400px;
+          width: 100%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 1;
+        }
+        .Bitmap_3 {
+          object-fit: contain;
+          max-width: 239px;
+          width: 100%;
+          position: absolute;
+          top: -18%;
+          left: 73%;
+        }
+        .block_p1 {
+          @include fontSet(
+            $text_light_accent,
+            epilogue,
+            400,
+            16px,
+            200%,
+            uppercase,
+            0.19em
+          );
+          margin-bottom: 13px;
+        }
+        .block_p2 {
+          @include fontSet(black, epilogue, 700, 24px, 133%, none, normal);
+          margin-bottom: 38px;
+          max-width: 248px;
+          position: relative;
+          z-index: 2;
+        }
+        a {
+          @include fontSet(black, epilogue, 900, 14px, normal, uppercase, normal);
+          padding: 18px 32px;
+          border: 1px solid white;
+          border-radius: 6px;
+          background-color: white;
+          transition: all 0.3s;
+          &:hover {
+            background-color: $text_light_accent;
+            color: white;
+            border-color: $text_light_accent;
+          }
+        }
+      }
+      .firstSectionBox_3 {
+        @include flex(unset, center, column, unset, unset);
+        .section_p7 {
+          @include fontSet(
+            $text_light_accent,
+            epilogue,
+            400,
+            16px,
+            200%,
+            uppercase,
+            0.19em
+          );
+          margin-bottom: 20px;
+        }
+        .section_p8 {
+          @include fontSet(white, epilogue, 800, 56px, 114%, none, -0.02em);
+          max-width: 427px;
+          margin-bottom: 64px;
+          text-align: center;
+        }
+      }
+      .secondSectionBox_3 {
+        @include flex(center, unset, row, 0 30px, unset);
+        .sectionbox_8 {
+          margin-bottom: 64px;
+          .subSectionBox_1 {
+            border: 1px solid #3a3c56;
+            border-radius: 6px;
+            padding: 36px 40px;
+            @include flex(unset, center, column, 15px 0, unset);
+            .sub_p_1 {
+              @include flex(unset, unset, row, 0 12px, unset);
+              padding-right: 113px;
+            }
+            .sub_p_2 {
+              @include flex(unset, unset, column, unset, unset);
+              .sub_p8 {
+                @include fontSet(white, epilogue, 700, 24px, 133%, none, normal);
+              }
+            }
+            .sub_p7 {
+              @include fontSet(white, epilogue, 800, 72px, 111%, none, -0.03em);
+            }
+            .subTime {
+              border-bottom: 1px solid gray;
+              padding-bottom: 36px;
+              padding-right: 128px;
+              @include flex(unset, unset, row, 0 8px, unset);
+              .times {
+                object-fit: contain;
+                max-width: 16px;
+                width: 100%;
+              }
+              .timesP {
+                @include fontSet(gray, epilogue, 400, 16px, 200%, none, normal);
+                max-width: 136px;
+                width: 100%;
+              }
+            }
+            .disc {
+              margin-top: 28px;
+              .sub_p9 {
+                @include fontSet(white, epilogue, 700, 24px, 133%, none, normal);
+                margin-bottom: 19px;
+              }
+              .sub_p10 {
+                @include fontSet(gray, epilogue, 400, 16px, 200%, none, normal);
+                max-width: 290px;
+                margin-bottom: 26px;
+              }
+              a {
+                @include fontSet(white, epilogue, 400, 16px, 200%, none, normal);
+                display: inline-flex;
+                cursor: pointer;
+                position: relative;
+                &::after {
+                  content: "";
+                  width: 0%;
+                  height: 3px;
+                  position: absolute;
+                  bottom: 0;
+                  background-color: $text_light_accent;
+                  transition: 0.3s;
+                }
+                &:hover::after {
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+      .firstSectionBox_4 {
+        @include flex(space-between, unset, row, unset, unset);
+        padding: 55px;
+        margin-bottom: 64px;
+        .sectionBox_9 {
+          .section_p9 {
+            @include fontSet(
+              $text_light_accent,
+              epilogue,
+              400,
+              16px,
+              200%,
+              uppercase,
+              0.19em
+            );
+            margin-bottom: 20px;
+          }
+          .section_p10 {
+            @include fontSet(white, epilogue, 800, 56px, 114%, none, -0.02em);
+            max-width: 531px;
+          }
+        }
+        .sectionBox_10 {
+          display: flex;
+          .arrows {
+            align-self: flex-end;
+            cursor: pointer;
+            transition: all 0.3s;
+            &:hover {
+              filter: drop-shadow(6px 6px $text_light_accent);
+            }
+          }
+        }
+      }
+      .secondSectionBox_4 {
+        @include flex(center, center, row, 50px 30px, wrap);
+        margin-bottom: 50px;
+        .sectionBox_11,
+        .sectionBox_12,
+        .sectionBox_13,
+        .sectionBox_14 {
+          .sectionSubBox_1 {
+            display: flex;
+            justify-content: center;
+            padding: 24px 37px 0 37px;
+            max-width: 270px;
+            width: 100%;
+            border: 1px solid #3a3c56;
+            border-radius: 6px;
+            cursor: pointer;
+            img {
+              object-fit: contain;
+            }
+            &:hover {
+              background-color: #f3d1bf;
+            }
+          }
+          .sectionSubBox_2 {
+            @include flex(unset, unset, column, 3px 0, unset);
+            margin-top: 26px;
+            .section_p11 {
+              @include fontSet(white, epilogue, 700, 24px, 133%, none, normal);
+              display: inline-flex;
+            }
+            .section_p12 {
+              @include fontSet(gray, epilogue, 400, 16px, 200%, none, normal);
+            }
+          }
+        }
+      }
+      .pins {
+        @include flex(center, unset, unset, unset, unset);
+        img {
+          cursor: pointer;
+        }
+      }
+      .sectionSides_7 {
+        @include flex(space-around, unset, unset, 0 30px, unset);
+        padding-top: 160px;
+        padding-bottom: 130px;
+        .leftSide_7 {
+          img {
+            object-fit: contain;
+            max-width: 570px;
+            width: 100%;
+          }
+        }
+        .rightSide_7 {
+          @include flex(unset, unset, column, unset, unset);
+          padding-bottom: 80px;
+          position: relative;
+          z-index: 1;
+          img {
+            position: absolute;
+            top: 2%;
+            left: 68.5%;
+            z-index: -1;
+          }
+          .rightSide_p1 {
+            @include fontSet(
+              $text_light_accent,
+              epilogue,
+              400,
+              16px,
+              200%,
+              uppercase,
+              0.19em
+            );
+            margin-bottom: 33px;
+          }
+          .rightSide_p2 {
+            @include fontSet(white, epilogue, 800, 40px, 120%, none, normal);
+            margin-bottom: 44px;
+            max-width: 470px;
+          }
+          .rightSide_p3 {
+            max-width: 97px;
+            width: 100%;
+            transition: all 0.3s;
+            &:hover {
+              transform: scale(1.3);
+              text-shadow: 10px 10px 3px $text_light_accent;
+              margin-bottom: 20px;
+            }
+            a {
+              @include fontSet(white, epilogue, 400, 20px, 160%, none, normal);
+              margin-bottom: 6px;
+              cursor: pointer;
+            }
+          }
+          .rightSide_p4 {
+            @include fontSet(gray, epilogue, 400, 14px, 171%, none, normal);
+          }
+        }
+      }
+    }
+  }

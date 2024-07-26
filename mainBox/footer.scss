@@ -1,0 +1,260 @@
+footer {
+    background-color: #f9e5da;
+    width: 100%;
+    .footerMainBox {
+      padding: 70px 40px;
+      @include flex(unset, unset, column, unset, unset);
+      .FooterBox_6 {
+        @include flex(space-around, unset, row, 0 30px, unset);
+        margin-bottom: 100px;
+        .footerBox_4 {
+          @include fontSet(black, epilogue, 800, 40px, 120%, none, normal);
+        }
+        .footerBox_5 {
+          @include flex(unset, center, row, 0 30px, unset);
+          a {
+            @include fontSet(
+              black,
+              epilogue,
+              900,
+              14px,
+              normal,
+              uppercase,
+              normal
+            );
+            padding: 18px 46px;
+            border: 1px solid white;
+            border-radius: 6px;
+            background-color: white;
+            transition: all 0.3s;
+            &:hover {
+              background-color: $text_light_accent;
+              color: white;
+              border-color: $text_light_accent;
+            }
+          }
+          .email_input {
+            padding: 0 16px 0 16px;
+            @include fontSet(gray, epilogue, 400, 16px, 200%, none, normal);
+            width: 370px;
+            height: 48px;
+            border: 1px solid #f3d1bf;
+            border-radius: 6px;
+            border-color: #f3d1bf;
+          }
+        }
+      }
+      .agencyMap {
+        @include flex(unset, unset, unset, unset, unset);
+        background-image: url(images/map.png);
+        object-fit: contain;
+        width: 100%;
+        padding: 125px 135px;
+        margin-bottom: 80px;
+        border-radius: 6px;
+        .rightpin {
+          position: relative;
+          .pin2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(300%, 1%);
+            cursor: pointer;
+          }
+        }
+        .footerBox_7 {
+          @include flex(unset, unset, column, 20px 0, unset);
+          padding: 48px 48px;
+          background-color: white;
+          border-radius: 6px;
+          max-width: 470px;
+          .footer_p9 {
+            @include fontSet(black, eplogue, 700, 24px, 133%, none, normal);
+          }
+          .footerForm {
+            @include flex(unset, unset, column, 20px 0, unset);
+            input {
+              @include fontSet(gray, epilogue, 400, 16px, 200%, none, normal);
+              width: 374px;
+              height: 48px;
+              border: 1px solid #f3d1bf;
+              padding: 9px 16px;
+            }
+            .message {
+              height: 96px;
+            }
+          }
+          .submit_now {
+            @include flex(unset, unset, unset, unset, unset);
+            align-self: flex-end;
+            @include fontSet(
+              black,
+              epilogue,
+              900,
+              14px,
+              normal,
+              uppercase,
+              normal
+            );
+            background-color: white;
+            border-radius: 6px;
+            border: 1px solid $text_light_accent;
+            padding: 18px 30px;
+            max-width: 160px;
+            transition: all 0.3s;
+            &:hover {
+              background-color: $text_light_accent;
+              color: white;
+            }
+          }
+        }
+      }
+      .footerBox_9 {
+        @include flex(center, unset, row, unset, unset);
+        margin-bottom: 100px;
+        .footerBox_8 {
+          @include flex(unset, unset, column, 26px 0, unset);
+          border: 1px solid #f3d1bf;
+          max-width: 391px;
+          width: 100%;
+          padding: 42px 35px;
+          cursor: pointer;
+          transition: all 0.3s;
+          &:hover {
+            background-color: white;
+          }
+          .subFooterBox_1 {
+            @include flex(unset, center, row, 0 24px, unset);
+            .footerOval {
+              object-fit: contain;
+              width: 100%;
+              max-width: 64px;
+              position: relative;
+            }
+            .phone {
+              object-fit: contain;
+              width: 100%;
+              max-width: 24px;
+              position: absolute;
+              transform: translate(80%, 1%);
+            }
+            p {
+              @include fontSet(
+                $text_light_accent,
+                epilogue,
+                400,
+                16px,
+                200%,
+                uppercase,
+                0.19em
+              );
+            }
+          }
+          .footer_p10 {
+            @include fontSet(black, epilogue, 400, 20px, 160%, none, normal);
+          }
+        }
+      }
+      .footerBox_10 {
+        background-color: #ef6d58;
+        border-radius: 6px;
+        padding: 80px 80px;
+        .sectionSides_10 {
+          @include flex(space-between, center, row, 0 30px, unset);
+          .leftSide_10 {
+            @include flex(unset, unset, column, 30px 0, unset);
+            h3 {
+              @include fontSet(white, epilogue, 800, 56px, 114%, none, -0.02em);
+              max-width: 405px;
+            }
+            p {
+              @include fontSet(white, epilogue, 400, 16px, 200%, none, normal);
+              max-width: 470px;
+            }
+            a {
+              @include fontSet(
+                black,
+                epilogue,
+                900,
+                14px,
+                normal,
+                uppercase,
+                normal
+              );
+              padding: 18px 30px;
+              background-color: white;
+              max-width: 154px;
+              width: 100%;
+              border-radius: 6px;
+              border: solid 1px white;
+              transition: all 0.3s;
+              &:hover {
+                background-color: $text_light_accent;
+                color: white;
+                border-color: white;
+              }
+            }
+          }
+          .rightSide_10 {
+            img {
+              object-fit: contain;
+              width: 100%;
+              max-width: 444px;
+              min-width: 200px;
+            }
+          }
+        }
+      }
+      .footerBox_11 {
+        @include flex(space-between, unset, row, unset, unset);
+        padding-top: 90px;
+        padding-bottom: 60px;
+        border-bottom: 1px solid #f3d1bf;
+        .agencyFooter {
+          @include fontSet(black, epilogue, 700, 24px, 133%, none, normal);
+        }
+        .footerBox_12 {
+          @include flex(unset, unset, column, unset, unset);
+          .footer_p11 {
+            @include fontSet(
+              $text_light_accent,
+              epilogue,
+              400,
+              16px,
+              200%,
+              uppercase,
+              0.19em
+            );
+            margin-bottom: 17px;
+          }
+          .footer_p12 {
+            @include fontSet(black, epilogue, 400, 16px, 200%, none, normal);
+            &:hover{
+              color: $text_light_accent;
+            }
+          }
+        }
+        .footerBox_13 {
+          img {
+            cursor: pointer;
+          }
+        }
+      }
+      .footerBox_14 {
+        @include flex(space-between, center, row, 30px 30px, unset);
+        padding-top: 45px;
+        .footer_p13 {
+          @include fontSet(gray, epilogue, 400, 16px, 200%, none, normal);
+        }
+        .footerBox_15 {
+          @include flex(unset, unset, row, 0 30px, unset);
+          a {
+            @include fontSet(black, epilogue, 400, 16px, 200%, none, normal);
+            &:hover{
+              color: $text_light_accent;
+            }
+          }
+        }
+      }
+    }
+  }
